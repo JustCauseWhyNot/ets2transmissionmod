@@ -1,0 +1,38 @@
+SiiNunit
+{
+accessory_transmission_data : spicer12142a.peterbilt.389.transmission
+{
+	name: "Spicer Model 1214-2A"
+	price: 10500
+	unlock: 0
+	icon: "transmission/spicer"
+	
+	differential_ratio: 3.08
+
+	# reverse gear
+	ratios_reverse[0]: -12.59
+	ratios_reverse[1]: -10.6
+	ratios_reverse[2]: -8.86
+	ratios_reverse[3]: -7.47
+	
+
+	# forward gears
+	ratios_forward[0]: 12.59
+	ratios_forward[1]: 10.6
+	ratios_forward[2]: 7.67
+	ratios_forward[3]: 6.46
+	ratios_forward[4]: 4.76
+	ratios_forward[5]: 4.01
+	ratios_forward[6]: 3.35
+	ratios_forward[7]: 2.82
+	ratios_forward[8]: 2.36
+	ratios_forward[9]: 1.99
+	ratios_forward[10]: 1.69
+	ratios_forward[11]: 1.42
+	ratios_forward[12]: 1.19
+	ratios_forward[13]: 1.0
+	
+	
+@include "sound.sui"
+}
+}

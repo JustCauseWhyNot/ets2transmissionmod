@@ -1,0 +1,8 @@
+This mod lets you add Spicer transmission for any truck. It works with the Peterbilt 389 (by SCS), you just need to change some things. I recommend making a copy of my archive and make the settings in the copied file. To do this:
+
+1) rename the folder in def/vehicle/truck/peterbilt.389 - the name "peterbilt.389" must be the same as in your truck def folder
+Now move to the whole transmission folder and edit each transmission file you want to apply - the rest can be deleted.
+2) rename the third line "accessory_transmission_data..." - change "...peterbilt.389..." to your truck def name (the same name as in the previous step)
+3) the rest is optional but recommended - you can change the price and unlock level (price - higher than 1, unlock level - 0 or higher)
+4) this step is optional but highly recommended - change the differential ratio - the lower ratio gives more speed, the higher - better launch of your truck (common ratios are 3.25, 3.55, 3.73, 3.91, 4.11 and so on, but you can use any)
+5) do not change the rest!

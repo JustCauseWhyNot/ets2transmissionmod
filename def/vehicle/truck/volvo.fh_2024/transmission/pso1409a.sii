@@ -1,0 +1,29 @@
+SiiNunit
+{
+accessory_transmission_data : pso1409a.peterbilt.389.transmission
+{
+	name: "Spicer PSO-140-9A"
+	price: 10000
+	unlock: 0
+	icon: "transmission/spicer"
+	
+	differential_ratio: 3.55
+
+	# reverse gear
+	ratios_reverse[0]: -10.65
+	
+
+	# forward gears
+	ratios_forward[0]: 10.4
+	ratios_forward[1]: 6.74
+	ratios_forward[2]: 4.85
+	ratios_forward[3]: 3.55
+	ratios_forward[4]: 2.65
+	ratios_forward[5]: 1.9
+	ratios_forward[6]: 1.37
+	ratios_forward[7]: 1.0
+	ratios_forward[8]: 0.75
+	
+@include "sound.sui"
+}
+}

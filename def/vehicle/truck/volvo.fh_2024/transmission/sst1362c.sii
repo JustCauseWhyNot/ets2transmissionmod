@@ -1,0 +1,27 @@
+SiiNunit
+{
+accessory_transmission_data : sst1362c.peterbilt.389.transmission
+{
+	name: "Spicer Model 1362-C SST-6"
+	price: 7500
+	unlock: 0
+	icon: "transmission/spicer"
+	
+	differential_ratio: 3.08
+
+	# reverse gear
+	ratios_reverse[0]: -8.86
+	
+
+	# forward gears
+	ratios_forward[0]: 8.86
+	ratios_forward[1]: 5.06
+	ratios_forward[2]: 3.12
+	ratios_forward[3]: 1.97
+	ratios_forward[4]: 1.38
+	ratios_forward[5]: 1.0
+	
+	
+@include "sound.sui"
+}
+}

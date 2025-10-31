@@ -1,0 +1,47 @@
+SiiNunit
+{
+accessory_transmission_data : spicer6x4.kenworth.w900.transmission # change "peterbilt.389" to your truck def name!
+{
+	name: "Spicer PSO140-6A + AMO1750-4D"
+	price: 25000 # here you can change the price
+	unlock: 0 # this is the unlock level, you can change it
+	icon: "transmission/spicer"
+	
+	differential_ratio: 3.55 # here you can set any differential ratio you want (I recommend from 2.0 to 8.0)
+
+	# reverse gear
+	ratios_reverse[0]: -11.7819
+	ratios_reverse[1]: -9.2628
+	ratios_reverse[2]: -7.47
+	ratios_reverse[3]: -6.0507
+	
+
+	# forward gears
+	ratios_forward[0]: 11.7819 #1L
+	ratios_forward[1]: 9.2628 #1U
+	ratios_forward[2]: 7.47 #1D
+	ratios_forward[3]: 6.4872 #2L
+	ratios_forward[4]: 6.0507 #1O
+	ratios_forward[5]: 5.0592 #2U
+	ratios_forward[6]: 4.08 #2D
+	ratios_forward[7]: 3.5934 #3L
+	ratios_forward[8]: 3.3048 #2O
+	ratios_forward[9]: 2.8024 #3U
+	ratios_forward[10]: 2.26 #3D
+	ratios_forward[11]: 1.9716 #4L
+	ratios_forward[12]: 1.8306 #3O
+	ratios_forward[13]: 1.59 #5L
+	ratios_forward[14]: 1.5376 #4U
+	ratios_forward[15]: 1.2879 #6L
+	ratios_forward[16]: 1.24 #4D
+	ratios_forward[17]: 1.24 #5U
+	ratios_forward[18]: 1.04 #6U
+	ratios_forward[19]: 1.0125 #4O
+	ratios_forward[20]: 1.0 #5D
+	ratios_forward[21]: 0.84 #6D
+	ratios_forward[22]: 0.81 #5O
+	ratios_forward[23]: 0.68 #6O
+	
+@include "sound.sui"
+}
+}

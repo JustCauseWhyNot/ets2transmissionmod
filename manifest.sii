@@ -1,0 +1,30 @@
+SiiNunit
+{
+# ".package_name" does not matter as the dot at the beginning of the file means that this unit is anonymous. 
+# Please keep this form to not make any conflicts with other mod packages (name collisions).
+mod_package : .package_name
+{
+					
+	# Package version can be any string with any length.
+	package_version: "1.0"
+					
+	# Display name can be any string with any length.
+	display_name: "DIY Spicer Transmissions"
+					
+	# Author can be any string with any length.
+	author: "PikPikker"
+					
+	# Categories is an array of strings. 
+	category[]: "tuning_parts"
+						
+	# Icon inside the root directory of the mod.
+	icon: "icon.jpg"
+					
+	# Description file inside the root directory of the mod.
+	description_file: "info.txt"
+	
+	# Mod is compatible with ATS 1.38.X
+	# compatible_versions[]: "1.38.*"
+
+}
+}

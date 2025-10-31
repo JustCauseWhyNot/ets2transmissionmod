@@ -1,0 +1,30 @@
+SiiNunit
+{
+accessory_transmission_data : sst1372.peterbilt.389.transmission
+{
+	name: "Spicer Model 1372-A"
+	price: 8000
+	unlock: 0
+	icon: "transmission/spicer"
+	
+	# Autocar ratio: 3.25 3.55 4.63 5.38 6.80
+    # ratio: 3.55, 3.73, 3.78, 3.91, 4.10 
+	
+	differential_ratio: 3.08
+
+	# reverse gear
+	ratios_reverse[0]: -10.13
+	
+
+	# forward gears
+	ratios_forward[0]: 10.13
+	ratios_forward[1]: 5.99
+	ratios_forward[2]: 3.56
+	ratios_forward[3]: 2.57
+	ratios_forward[4]: 1.84
+	ratios_forward[5]: 1.33
+	ratios_forward[6]: 1.00
+	
+@include "sound.sui"
+}
+}
